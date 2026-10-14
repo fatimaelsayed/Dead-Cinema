@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <path d="M95 90 Q200 10 305 90 Q335 200 290 290 L265 400 L135 400 L110 290 Q65 200 95 90 Z" fill="#56643f" stroke="#000000" stroke-width="8"/>
+    <path d="M95 90 L70 200 M110 60 L90 180 M130 40 L120 130 M305 90 L330 210 M290 55 L312 170 M270 38 L280 120" stroke="#000000" stroke-width="5" fill="none"/>
+    <ellipse cx="130" cy="95" rx="40" ry="28" fill="#2f3a22"/>
+    <ellipse cx="285" cy="215" rx="30" ry="40" fill="#2f3a22"/>
+    <path d="M85 215 L125 205 L135 255 L100 285 L82 255 Z" fill="#d9d9c3"/>
+    <path d="M92 228 L122 222 M96 245 L128 240 M100 262 L124 258" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M200 70 L190 110 L205 140 L195 170 M230 85 L240 125 L225 150" stroke="#2a0000" stroke-width="4" fill="none"/>
+    <path d="M150 160 L120 140 M155 150 L135 120 M250 160 L275 140 M245 150 L262 118" stroke="#b30000" stroke-width="2" fill="none"/>
+    <ellipse cx="145" cy="165" rx="50" ry="58" fill="#000000"/>
+    <ellipse cx="258" cy="162" rx="42" ry="50" fill="#000000"/>
+    <circle cx="150" cy="172" r="30" fill="#ff1a1a" opacity="0.35"/>
+    <circle cx="255" cy="168" r="26" fill="#ff1a1a" opacity="0.35"/>
+    <circle cx="150" cy="172" r="15" fill="#ff1a1a"/>
+    <circle cx="255" cy="168" r="12" fill="#ff1a1a"/>
+    <circle cx="150" cy="172" r="4" fill="#000000"/>
+    <circle cx="255" cy="168" r="3" fill="#000000"/>
+    <path d="M120 215 v50 M138 222 v65 M175 218 v30" stroke="#b30000" stroke-width="5" fill="none"/>
+    <path d="M188 222 L180 255 L195 248 L205 255 L215 222 Z" fill="#000000"/>
+    <path d="M80 258 Q200 232 320 258 Q345 340 295 390 L105 390 Q55 340 80 258 Z" fill="#000000"/>
+    <polygon points="96,252 112,310 128,248" fill="#d9d9c3"/>
+    <polygon points="128,248 142,288 156,246" fill="#b8b8a0"/>
+    <polygon points="156,246 172,318 188,244" fill="#d9d9c3"/>
+    <polygon points="214,244 226,282 240,246" fill="#b8b8a0"/>
+    <polygon points="240,246 258,322 274,248" fill="#d9d9c3"/>
+    <polygon points="274,248 286,292 304,252" fill="#b8b8a0"/>
+    <polygon points="105,388 122,340 138,388" fill="#d9d9c3"/>
+    <polygon points="165,388 180,352 196,388" fill="#b8b8a0"/>
+    <polygon points="228,388 246,334 262,388" fill="#d9d9c3"/>
+    <polygon points="268,388 284,356 296,388" fill="#b8b8a0"/>
+    <ellipse cx="205" cy="372" rx="45" ry="26" fill="#6b0f0f"/>
+    <path d="M90 270 q-6 50 -2 90 M310 270 q8 40 4 80 M205 385 v14" stroke="#b30000" stroke-width="7" fill="none"/>
+    <path d="M150 385 v35 a8 8 0 0 0 16 0 v-35 z M235 385 v25 a8 8 0 0 0 16 0 v-25 z" fill="#b30000"/>
+</svg>

@@ -1,64 +1,47 @@
-const jumpscare = document.getElementById("jumpscare");
-const scare = document.getElementById("scare");
-const result = document.getElementById("result");
-const nameInput = document.getElementById("name");
-const ageInput = document.getElementById("age");
-const ticketsInput = document.getElementById("tickets");
+let jumpscare = document.getElementById("jumpscare");
+let scare = document.getElementById("scare");
 
-function showScare(message) {
+jumpscare.onplaying = function () {
     scare.className = "boom";
+};
 
-    setTimeout(function () {
-        scare.className = "";
-        result.innerHTML = message;
-    }, 3000);
-}
+jumpscare.onended = function () {
+    scare.className = "";
+};
 
 function calculateTicket() {
-    const name = nameInput.value;
-    const age = Number(ageInput.value);
-    const tickets = Number(ticketsInput.value);
+    let name = document.getElementById("name").value;
+    let age = Number(document.getElementById("age").value);
+    let tickets = Number(document.getElementById("tickets").value);
+    let price;
 
-    result.innerHTML = "";
-
-    let message;
-
-    if (name == "" || ageInput.value == "" || tickets < 1) {
-        message = "Fill in everything... or they get you.";
+    if (age < 12) {
+        price = 5;
+    }
+    else if (age <= 17) {
+        price = 7;
     }
     else {
-        let price;
+        price = 10;
+    }
 
-        if (age < 12) {
-            price = 5;
-        }
-        else if (age <= 17) {
-            price = 7;
-        }
-        else {
-            price = 10;
-        }
+    let total = price * tickets;
 
-        const total = price * tickets;
+    document.getElementById("result").innerHTML = "";
+    jumpscare.currentTime = 0;
+    jumpscare.play();
 
-        message = name + "'s Ticket<br>" +
+    setTimeout(function () {
+        document.getElementById("result").innerHTML = name + "'s Ticket<br>" +
             "Price per ticket: $" + price + "<br>" +
             "Number of tickets: " + tickets + "<br>" +
             "Total: $" + total;
-    }
-
-    jumpscare.currentTime = 0;
-    jumpscare.play().then(function () {
-        showScare(message);
-    }, function () {
-        showScare(message);
-    });
+    }, 3000);
 }
 
 function clearTicket() {
-    nameInput.value = "";
-    ageInput.value = "";
-    ticketsInput.value = "";
-    result.innerHTML = "";
-    scare.className = "";
+    document.getElementById("name").value = "";
+    document.getElementById("age").value = "";
+    document.getElementById("tickets").value = "";
+    document.getElementById("result").innerHTML = "";
 }
