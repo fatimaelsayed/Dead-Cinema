@@ -114,10 +114,9 @@ button:hover {
     width: 95vmin;
     height: 95vmin;
 }
-
 #scare.boom {
     display: flex;
-    animation: boom 3s;
+    animation: boom 3s forwards;
 }
 
 #scare.boom img {

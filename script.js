@@ -4,11 +4,9 @@ let scare = document.getElementById("scare");
 jumpscare.onplaying = function () {
     scare.className = "boom";
 };
-
 jumpscare.onended = function () {
     scare.className = "";
 };
-
 function calculateTicket() {
     let name = document.getElementById("name").value;
     let age = Number(document.getElementById("age").value);
@@ -38,7 +36,6 @@ function calculateTicket() {
             "Total: $" + total;
     }, 3000);
 }
-
 function clearTicket() {
     document.getElementById("name").value = "";
     document.getElementById("age").value = "";

@@ -3,41 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scary Cinema</title>
+    <title>Dead Cinema</title>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <img id="scene" src="scene.svg" alt="">
-
     <div id="scare">
         <img src="scare.svg" alt="">
     </div>
-
     <div id="page">
         <div id="tagline">THEY ARE COMING</div>
-
         <div id="booth">
             <h1>DEAD CINEMA</h1>
-
             <label for="name">Name:</label>
             <input type="text" id="name">
-
             <label for="age">Age:</label>
             <input type="number" id="age">
-
             <label for="tickets">Number of Tickets:</label>
             <input type="number" id="tickets">
-
             <button onclick="calculateTicket()">Calculate Price</button>
             <button onclick="clearTicket()">Clear</button>
         </div>
-
         <div id="result"></div>
     </div>
-
     <audio id="jumpscare" src="jumpscare.mp3"></audio>
-
     <script src="script.js"></script>
 </body>
 </html>

@@ -22,7 +22,6 @@
                 100% { opacity: 1; }
             }
         </style>
-
         <g id="zom">
             <line x1="0" y1="-45" x2="-9" y2="0" stroke="#000000" stroke-width="9"/>
             <line x1="2" y1="-45" x2="12" y2="0" stroke="#000000" stroke-width="9"/>
@@ -36,7 +35,6 @@
             </g>
         </g>
     </defs>
-
     <circle cx="600" cy="120" r="110" fill="#8b0000" opacity="0.45"/>
     <circle cx="600" cy="120" r="70" fill="#d9d9c3"/>
     <circle cx="580" cy="100" r="12" fill="#b8b8a0"/>
